@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="robot_com_protocol" name="CmdPublisher" type="CmdPublisher.py" output="screen"/>
+    <node pkg="robot_com_protocol" name="ComNode" type="ComNode.py" output="screen"/>
+
+    <node pkg="robot_com_protocol" name="ProtocolNode" type="ProtocolNode" output="screen"/>
+</launch>
